@@ -13,6 +13,8 @@
 <body>
    <!-- block 2 -->
   <form action="#" method="GET" enctype="multipart/form-data">
+    <fieldset>
+    <legend>User data:</legend>
     <p>
       <label>your name</label>
       <input type="text" name="text"/>
@@ -21,9 +23,16 @@
       <label>Password:</label>
       <input type="password" name="pass"/>
     </p>
+  </fieldset>
+  <fieldset>
+    <legend>Choose variants:</legend>
     <p>
       <label>Blocked:</label>
       <input type="text" name="block" disabled value="disabled area"/>
+    </p>
+    <p>
+      <label>Not blocked:</label>
+      <input type="text" name="block" readonly value="readonly area"/>
     </p>
     <p>
       <label>File:</label>
@@ -74,7 +83,7 @@
           <option>apple</option>
           <option>orange</option>
           <option>banana</option>
-          <option>peanapple</option>
+          <option selected>peanapple</option>
           <option>kivi</option>
           <option>strawberry</option>
         </optgroup>
@@ -89,7 +98,7 @@
       <label>Set 1 or several variant:</label>
       <p>
         <label for="check1">Var 1</label>
-      <input type="checkbox" name="check1" id="check1">
+      <input type="checkbox" name="check1" id="check1" checked>
       </p>
       <p>
         <label for="check2">Var 2</label>
@@ -130,6 +139,9 @@
         <input type="radio" name="fruit" id="fruit3">
       </p>
     </p>
+  </fieldset>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
   </form>
 </body>
 </html>
