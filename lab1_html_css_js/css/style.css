@@ -1,0 +1,8 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  display: table;
+  
+  /* border-spacing: 2px; */
+  border-color: gray;
+}
