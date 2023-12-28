@@ -1,4 +1,4 @@
-/* css block 1
+/* css block l1
 @import url("font.css");
 
 body{
@@ -11,8 +11,8 @@ p{
   color: blue;
 } */
 
-/* css block 2 */
-@font-face {
+/* css block l2 */
+/* @font-face {
   font-family: BebasNeue-Regular;
   src: url("../fonts/BebasNeue-Regular.woff") format("woff");
   src: url("../fonts/BebasNeue-Regular.woff2") format("woff2");
@@ -36,7 +36,7 @@ h2{
 }
 h3{
   font-family: Rubik Doodle Triangles;
-}
+} 
 p{
   margin: 0;
 }
@@ -80,3 +80,28 @@ p{
 .vmax{
   font-size: 11vmax;
 }
+*/
+
+
+/* css block l3 */
+/*
+p{
+  /* color:rgb(255, 0, 0);
+  color:#ff0000;
+  color:hsl(0, 100%, 50%);
+  color:hwb(0 0% 0%); */
+/*  color: rgb(135, 147, 44);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: left;
+  text-decoration: underline;
+  /* text-decoration: overline; */
+  /*text-decoration: line-through; /* перечеркнутый текст */ 
+  /*text-indent: 20px;/* отступ в начале строки*/
+  /*text-shadow: 3px 3px 5px #a3a09e;
+  /* text-shadow: 3px 3px 5px #ce5d06, 11px 11px 5px #e1e88e; */
+  /*text-transform:capitalize;
+}*/
