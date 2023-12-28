@@ -1,8 +1,39 @@
-table {
-  width: 100%;
-  border-collapse: collapse;
-  display: table;
-  
-  /* border-spacing: 2px; */
-  border-color: gray;
+/* css block 1
+@import url("font.css");
+
+body{
+  background-color:rgb(169, 235, 169);
+}
+h1{
+  color: red;
+}
+p{
+  color: blue;
+} */
+
+/* css block 2 */
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url("../fonts/BebasNeue-Regular.woff") format("woff");
+  src: url("../fonts/BebasNeue-Regular.woff2") format("woff2");
+  src: url("../fonts/BebasNeue-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: RubikDoodleShadow-Regular;
+  src: url("../fonts/RubikDoodleShadow-Regular.woff") format("woff");
+  src: url("../fonts/RubikDoodleShadow-Regular.woff2") format("woff2");
+  src: url("../fonts/RubikDoodleShadow-Regular.ttf") format("ttf");
+}
+
+h1{
+  font-family: Rubik Doodle Triangles;
+  font-size: 30px;
+}
+
+h2{
+  font-family: RubikDoodleShadow-Regular;
+}
+h3{
+  font-family: Rubik Doodle Triangles;
 }
