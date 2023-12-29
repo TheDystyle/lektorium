@@ -1,0 +1,55 @@
+body{
+  font-size: 25px;
+  line-height: 15px;
+}
+p {
+  color: red;
+}
+span{
+  color: green;
+}
+
+#list_1{
+  color:blue;
+}
+#list_2{
+  color:limegreen;
+}
+#list_3{
+  color:rgb(209, 28, 182);
+}
+
+.list_1{
+  font-weight: bold;
+  color:darkblue;
+}
+.list_2{
+  text-decoration: underline;
+  color:blueviolet;
+}
+.list_3{
+  text-decoration:overline;
+  color:brown;
+}
+
+.form_1 input[type="text"] {
+  color: brown;
+  font-weight: bold;
+}
+
+div.div_1 p span{
+  color: greenyellow;
+}
+
+.block > p {
+  color: orange;
+  font-size: 16px;
+}
+
+.comb_1 p + span{
+  color: orange;
+}
+
+.comb_2 p ~ span {
+  color: blue;
+}
