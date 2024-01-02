@@ -1,0 +1,52 @@
+.block_1 {
+  background: aquamarine;
+  border: 1px solid;
+  height: 100px;
+  width: 200px;
+}
+.block_2 {
+  background: url("../img/fon.png") no-repeat; /* repeat-x repeat-y no-repeat */
+  border: 1px solid;
+  height: 300px;
+  width: 300px;
+}
+.block_3 {
+  background: url("../img/fon.png") no-repeat blueviolet; /* repeat-x repeat-y no-repeat */
+  border: 1px solid;
+  height: 300px;
+  width: 300px;
+}
+.block_4 {
+  /* background: url("../img/fon.png") no-repeat 30px 50px; repeat-x repeat-y no-repeat */
+  background: url("../img/fon.png") no-repeat right bottom; /* repeat-x repeat-y no-repeat */
+  border: 1px solid;
+  height: 400px;
+  width: 400px;
+}
+.block_5 {
+  background: url("../img/fon.png") no-repeat, url("../img/box.png");
+  border: 1px solid;
+  height: 400px;
+  width: 400px;
+}
+.block_6 {
+  /* background: url("../img/tree.png") no-repeat left top/contain; */
+  /* background: url("../img/tree.png") no-repeat; */
+  background-image: url("../img/tree.png");
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-x; */
+  background-repeat: repeat-y;
+  background-position: top right;
+  /* background-size: contain; */
+  border: 1px solid;
+  height: 400px;
+  width: 400px;
+}
+.block_7{
+  /* box-shadow: 5px 10px 4px 5px rgba(0, 0, 0,0.5); /* смещ по Х, смещ по У, радиус, толщина тени */
+  /* box-shadow: 5px 5px 0px rgb(232, 223, 49),  -5px 5px 0px rgb(38, 2, 92), -5px -5px 0px rgb(188, 232, 10), 5px -5px 0px rgb(38, 2, 92); */
+  box-shadow: 5px 5px 5px rgb(232, 223, 49, 0.5), 6px 6px 10px rgb(221, 55, 5, 0.5), 7px 7px 15px rgb(8, 189, 32, 0.5);
+  border: 1px solid;
+  height: 400px;
+  width: 400px;
+}
