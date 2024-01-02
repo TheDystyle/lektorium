@@ -1,0 +1,47 @@
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color:cadetblue;
+}
+a:hover{
+  color:darkgreen;
+}
+.grad_1{
+  border: 1px solid;
+  height: 280px;
+  width: 280px;
+  background: url("../img/gradient.png");
+  display: inline-block;
+}
+.grad_2{
+  background: linear-gradient(90deg, red, red 20px,blue 20px, blue 100px, yellow, yellow 100px);  
+  /* background: linear-gradient(270deg, rgb(61, 201, 217),rgb(233, 203, 36), yellow);   */
+  border: 1px solid;
+  height: 280px;
+  width: 280px;
+  display: inline-block;
+}
+.grad_3{
+  /* background: radial-gradient(at top,red,blue); */
+  background: radial-gradient(at top left,red,blue);
+  border: 1px solid;
+  height: 280px;
+  width: 280px;
+  display: inline-block;
+}
+.grad_4{
+  background: radial-gradient(circle at 65% 15%, #fff, red);
+  border-radius: 100%;
+  border: 1px solid rgb(181, 158, 158);
+  height: 280px;
+  width: 280px;
+  display: inline-block;
+}
+.grad_5{
+  background: repeating-radial-gradient(circle, red, red 20px, transparent 20px, transparent 40px);
+  border-radius: 100%;
+  border: 1px solid rgb(181, 158, 158);
+  height: 600px;
+  width: 600px;
+  display: inline-block;
+}

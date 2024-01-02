@@ -84,7 +84,14 @@ p{
 
 
 /* css block l3 */
-
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color:cadetblue;
+}
+a:hover{
+  color:darkgreen;
+}
 p{
   /*color:rgb(255, 0, 0);
   color:#ff0000;
