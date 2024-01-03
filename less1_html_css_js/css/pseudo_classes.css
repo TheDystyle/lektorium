@@ -1,0 +1,137 @@
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color:cadetblue;
+}
+.form_1 input{
+  outline: none;
+  width: 100px;
+  transition: 1s;
+}
+.form_1 input:focus{
+  border: 2px solid red;
+  width: 300px;
+}
+
+.form_2 input:checked + label{
+  color: red;
+}
+a:link{
+  color:blueviolet
+}
+a:visited{
+  color: green;
+}
+.block{
+  width: 100px;
+  height: 30px;
+  background: red;
+  transition: 1s;
+}
+.block:active{
+  width: 200px;
+  height:60px;
+  background: yellowgreen;
+}
+.form_3 input:disabled {
+  border: 2px solid orange;
+  background: rgb(243, 252, 1);
+}
+.form_3 input:enabled {
+  border: 2px solid lightseagreen;
+  background: lightsteelblue
+}
+.block_1 p:not(.title){
+  color: red;
+}
+.form_4 input:not([type="password"]){
+  border: 2px solid red;
+}
+p{
+  font-size: 20px;
+  margin: 0px;
+}
+/*
+.block_2 p:first-child{
+  color:red;
+}
+.block_2 p:last-child{
+  color:red;
+}
+.block_2 p:nth-child(5){
+  color:red;
+}
+.block_2 p:nth-child(3n){
+  color:red;
+}
+.block_2 p:nth-child(2n+1){
+  color:red;
+}
+.block_2 p:nth-child(-n+5){
+  color:red;
+}
+.block_2 p:nth-child(n+3):nth-child(-n+7){
+  color:red;
+}
+.block_2 p:nth-of-type(6){
+  color:red;
+}
+.block_2 p:nth-last-of-type(3){
+  color:red;
+}
+.block_2 p:nth-child(odd){
+  color:red;
+}*/
+/* .block_2 > div:nth-child(2) > p:nth-child(2){
+  color:blueviolet;
+  font-weight: bold;
+} */
+.block_3:first-letter{
+  color: blue;
+  font-size: 40px;
+  text-transform:uppercase;
+}
+.block_4{
+  width: 200px;
+}
+.block_4 p:first-line{
+  color: blue;
+  font-size: 20px;
+  text-transform:uppercase;
+}
+.block_5 p:before{
+    content:"element 'before' ";
+}
+.block_5 p:after{
+    content:"element 'after' ";
+}
+.block_6 p:after{
+    content:"HIT";
+    display: inline-block;
+    width: 37px;
+    height: 25px;
+    border-radius: 3px;
+    background: lightcoral;
+    color:brown;
+    font-weight: bold;
+    padding: 3px;
+    margin: 3px;
+}
+.block_6 p:before{
+    content:"before";
+    display: inline-block;
+    width: 37px;
+    height: 25px;
+    border-radius: 3px;
+    background: url("../img/tree.png") no-repeat;
+    color:yellowgreen;
+    font-weight: bold;
+    padding: 10px 10px 10px 30px;
+    margin: 15px;
+}
+.block_7 p:before{
+  content:"\260E";
+  color: blue;
+  font-size: 30px;
+  margin-right: 5px;
+}
