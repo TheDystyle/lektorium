@@ -1,0 +1,17 @@
+ol{
+  margin-bottom: 0px;
+  margin-top: 0px;
+} 
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color:cadetblue;
+}
+a:hover{
+  color:darkgreen;
+}
+h2{
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: darkolivegreen;
+}

@@ -1,0 +1,39 @@
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  color:cadetblue;
+}
+a:hover{
+  color:darkgreen;
+}
+.block_1 div:nth-child(odd){
+  background-color: lightsteelblue;
+}
+.block_1 div:nth-child(odd):hover{
+  background-color: lightgreen;
+}
+.block_1 div:nth-child(even){
+  background-color: lightblue;
+}
+.block_1 div:nth-child(even):hover{
+  background-color: lightgreen;
+}
+.block_1{
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  display: flex;
+  /* flex-direction:column-reverse; */ /*  выравнивание слева, справа*/
+  flex-wrap:wrap; /*перенос блоков*/
+  /* flex-flow: row-reverse wrap; */
+  justify-content: space-around;
+  /* align-items: stretch; */ /*по умолчанию*/
+  /* align-items: flex-start; */ /*выровнять по верху*/
+  /*align-items: flex-end;*/ /* выровнять по низу */ 
+  /*align-items: baseline;*/ /* выровнять по базовой линии (по верху)*/
+  align-items: center; /* выровнять по базовой линии (по верху)*/
+  align-content: flex-start;
+}
+.block_1 div{
+  border: 1px solid;
+}
