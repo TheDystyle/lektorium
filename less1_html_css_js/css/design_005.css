@@ -1,39 +1,88 @@
 .link {
   font-size: 20px;
   text-decoration: none;
-  color:cadetblue;
+  /* color:cadetblue; */
 }
 a:hover{
   color:darkgreen;
 }
 .block_1 div:nth-child(odd){
-  background-color: lightsteelblue;
+  /* background-color: lightsteelblue; */
 }
 .block_1 div:nth-child(odd):hover{
   background-color: lightgreen;
 }
 .block_1 div:nth-child(even){
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 .block_1 div:nth-child(even):hover{
   background-color: lightgreen;
 }
 .block_1{
-  width: 300px;
-  height: 300px;
+  /* width: 250px; */
+  height: 400px;
   border: 1px solid;
   display: flex;
   /* flex-direction:column-reverse; */ /*  выравнивание слева, справа*/
-  flex-wrap:wrap; /*перенос блоков*/
+   flex-wrap:wrap; /*перенос блоков*/
   /* flex-flow: row-reverse wrap; */
+
+  /* justify-content: выравнивание по горизонтали */
   justify-content: space-around;
-  /* align-items: stretch; */ /*по умолчанию*/
-  /* align-items: flex-start; */ /*выровнять по верху*/
-  /*align-items: flex-end;*/ /* выровнять по низу */ 
-  /*align-items: baseline;*/ /* выровнять по базовой линии (по верху)*/
-  align-items: center; /* выровнять по базовой линии (по верху)*/
-  align-content: flex-start;
+  /* justify-content: flex-end; *//* выровнять по правой стороне */
+  /* justify-content: center; /* выровнять по центру */
+  /* justify-content: space-between; /* выровнять между краями */
+
+  /* align-items: выравнивание по вертикали */ 
+  /* align-items: stretch; /*по умолчанию щирина блоков растягивается по ширине родительского*/
+  /* align-items: flex-start; /*выровнять по верху: блоки поднимутся вверх*/
+  /* align-items: flex-end; /* выровнять по низу: блоки опустятся вниз */ 
+  /* align-items: baseline; /* выровнять по базовой линии (по верху)*/
+   align-items: center; /* выровнять по центру: будут по центру */
+
+   /* для выравнивания осей на которых распоожены элементы*/
+  /* align-content: flex-start; /* поднимется вверх */
+  /* align-content: flex-end; /* опустит вниз */
+  /* align-content: center; /* разместит по центру */
 }
 .block_1 div{
   border: 1px solid;
+  /* делает каждый внутренний ДИВ по 20%.
+  работает только если если в родительском блоке есть свойство flex-wrap:wrap;
+  */
+  flex-basis: 20%;
+  /* 
+  указывает, может ли ширина элемента раширяться
+  если = 1, то блок всегда будет = изначальной ширине
+  */
+  flex-grow: 1;
+  /* 
+  указывает, что исходящая ширина остается такой
+  */
+  flex-shrink: 1;
+}
+
+.block_1 div:last-child {
+  /* последний дочерний элемент выравнивается по верхней границе*/
+  /* align-self:flex-start; */
+  /* последний дочерний элемент выравнивается по нижней границе*/
+  /* align-self:flex-end; */
+  /* последний дочерний элемент растягиват по высоте*/
+  /* align-self:stretch; */
+}
+.block_1 .b1{
+   /* order: помогает блоки менять местами */ 
+   order: 3;
+}
+.block_1 .b2{
+   /* order: помогает блоки менять местами */ 
+   order: 2;
+}
+.block_1 .b3{
+   /* order: помогает блоки менять местами */ 
+   order: 4;
+}
+.block_1 .b4{
+   /* order: помогает блоки менять местами */ 
+   order: 1;
 }
