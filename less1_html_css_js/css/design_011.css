@@ -184,8 +184,9 @@ header nav ul li a{
   font-weight: bold;
   text-shadow: 0 2px 3px rgba(0,0,0,0.7);
 }
-/* content-left start */
+/* content-left end */
 
+/* content-right start */
 .content_right{
   display: flex;
   flex-direction: column;
@@ -225,10 +226,101 @@ header nav ul li a{
   background: #a49c00;
 }
 
-
-
-
 .content_right .bottom{
-  border: 1px solid red;
   flex-basis: 66%;
+  background: linear-gradient(#d7e0d3, #d6e1d2);
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+.content_right .bottom h2{
+  color:white;
+  text-transform: uppercase;
+  font-size: 18px;
+  background: #4a7808;
+  margin:0;
+  padding: 10px 10px 8px;
+}
+.content_right .bottom .news{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.content_right .bottom .news img{
+  border: 2px solid #9baba8;
+}
+.content_right .bottom .news .description{
+  flex-basis: 60%;
+}
+.content_right .bottom .news_links a{
+  display: block;
+  text-decoration: none;
+  margin: 5px 0;
+  color: #4b7c0c;
+}
+.content_right .bottom .news_links{
+  width: 80%;
+  margin: 40px auto 0;
+}
+.content_right .bottom .news_links a:hover{
+  text-decoration: underline;
+}
+.content_right .bottom .news_links a:before{
+  content:"\00bb";
+  margin-right: 10px;
+}
+.content_right .bottom > a{
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.content_right .bottom > a:before{
+  content:"\003e";
+  margin-right: 10px;
+  border: 2px solid #50721d;
+  padding: 0 3px;
+  background: #77aa27;
+}
+footer{
+  margin-top: 15px;
+}
+footer ul{
+  display: flex;
+  background:linear-gradient(#629a13,#558022);
+  margin: 0;
+  padding: 15px 0;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+footer ul li{
+  list-style-type: none;
+  border-right: 1px solid #d1fb4a;
+  padding: 0 20px;
+}
+footer ul li:last-child{
+  border: none;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #d1fb4a;
+  font-weight: bold;
+  text-align: center;
+}
+footer ul li a:hover{
+  text-decoration: underline;
+}
+footer p{
+  color: white;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+footer p a{
+  text-decoration: none;
+  color: #d1fb4a;
+}
+footer p a:hover{
+  text-decoration: underline;
 }
