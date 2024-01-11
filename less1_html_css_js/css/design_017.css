@@ -1,4 +1,4 @@
-body{
+ body{
   margin:0;
   padding: 0;
   font-size: Arial;
@@ -284,3 +284,113 @@ section aside p{
 }
 /*  pagination END  */
 /* content (right) END */
+
+/* galery START */
+.galery h2{
+  border-left: 3px solid #83b85c;
+  padding-left: 5px;
+  font-weight: normal;
+  width: 80%;
+  margin: 40px auto 20px;
+}
+.galery .slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d9d9d7;
+  padding: 5px 0 3px;
+}
+.galery .slider .arrow_left{
+  background: url("../img/arrow_left.png") no-repeat center center;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+.galery .slider .arrow_right{
+  background: url("../img/arrow_right.png") no-repeat center center;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+/* .galery .slider{
+  display: flex;
+
+} */
+/* galery END */
+
+
+/* footer start */
+footer nav{
+  background: #19a2ac;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 60%;
+  height: 100%;
+  padding: 0;
+}
+footer nav ul li{
+  list-style-type: none;
+  height: 100%;
+  flex-basis: 100%;
+}
+footer nav ul li a{
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+footer nav ul li a:hover{
+  background: #128991;
+}
+/* footer links */
+footer .titles{
+  background: black;
+  padding: 10px 0;
+}
+footer .titles .links{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+footer .titles .links div{
+  background:#3e3e3e;
+  padding: 10px;
+  flex-basis: 40%;
+  text-align: center;
+}
+footer .titles .links div a{
+  color: #dedede;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  margin: 5px 0;
+}
+footer .titles .links div a:hover{
+  text-decoration: underline;
+}
+footer .titles .links div a:before{
+  content: "\00BB";
+  margin-right: 10px;
+  color:#8cc34c;
+}
+footer p{
+  text-align: center;
+  background: #d2f3e3;
+  margin: 0;
+  padding-top: 20px;
+  /* display: block; */
+  height: 40px;
+}
+/* arrow  
+"\00BB"
+*/
