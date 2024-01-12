@@ -1,0 +1,73 @@
+/*  @media screen для мониторов */
+/*  @media tv  для TV */
+/*  @media projection  для проекторов */
+
+/* 
+
+
+*/
+
+/* на всех экранов у которых максимальная ширина 480 пикселей */
+/* @media (max-width: 480px){
+  p{
+    color:red;
+  }
+} */
+/* на всех экранов  мониторов у которых максимальная ширина 480 пикселей
+@media screen (max-width: 470px){
+  p{color:green;}
+} */
+
+/* @media (max-width: 320px) {
+  p{
+    color: green;
+  }
+} */
+
+div {
+  border: 1px solid;
+  width: 70%;
+  height: 300px;
+}
+/* variant 1 */
+@media  (max-width: 1024px) {
+  p{
+    color: red;
+    background: greenyellow;
+  }
+  div{
+    background: url(../img/slider.jpg) no-repeat center;
+  }
+}
+/* variant 2 */
+/* @media  (orientation:landscape) { /* orientation:portret  
+  p{
+    color: red;
+    background: greenyellow;
+  }
+  div{
+    background: url(../img/slider.jpg) no-repeat center;
+  }
+} */
+/* @media  (max-width: 1024px) {
+  p{
+    color: red;
+    background: greenyellow;
+  }
+  div{
+    background: url(../img/slider.jpg) no-repeat center;
+  }
+} */
+
+
+
+@media (max-width: 768px) {
+  p{
+    color: blue;
+    font-weight: bold;
+  }
+  div{
+    background: url(../img/gallery.jpg) no-repeat center;
+    border-radius: 10px;
+  }
+}

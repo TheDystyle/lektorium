@@ -11,8 +11,39 @@
   <script src="js/script.js"></script>
 </head>
 <body>
-  <a class="link" href="index.html">index</a><br>
   
+<!-- counetr size screen -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+// установливаем обработчик события resize
+$( window ).resize(function() {
+  $( "#width" ).text( $( window ).width() );
+  $( "#height" ).text( $( window ).height() );
+});
+
+// вызовем событие resize
+$(window).resize();
+</script>
+
+<!-- <div id="width"></div>
+<div id="height"></div> -->
+<!-- counetr size screen -->
+  <a class="link" href="index.html">index</a><br>
+  <h3>популярные размеры экранов</h3>
+  <ul>
+    <li>1280px и > - PC</li>
+    <li>1024px - планшеты с альбомной ориентацией</li>
+    <li>768px - планшеты с портретной ориетацией</li>
+    <li>600px - небольшие планшеты</li>
+    <li>480px - мобильные устройства альб ориентация</li>
+    <li>320px - мобильные устройства портретная ориентация</li>
+  </ul>
+  <p>
+    My text paragfaph
+  </p>
+  <div>
+    Block with text
+  </div>
 </body>
 </html>
 
